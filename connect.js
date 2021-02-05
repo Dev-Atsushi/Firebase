@@ -13,7 +13,7 @@ var firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 const data = firebase.database();
 
-let bref = client.Database.ref(`Usuarios/Email`);
+let bref = data.ref(`Usuarios/Email`);
 bref.update({
   email: "mychannelall12@gmail.com"
 });
