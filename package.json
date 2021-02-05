@@ -1,0 +1,16 @@
+{
+  "name": "firebase",
+  "version": "1.0.0",
+  "description": "template",
+  "main": "",
+  "scripts": {
+    "start": "node connect.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {},
+  "dependencies": {
+    "firebase": "^8.2.6"
+  }
+}
