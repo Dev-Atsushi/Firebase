@@ -1,4 +1,4 @@
-# 🥥 | Isto é um exemplo de firebase
-Isto é algo apenas para você se basear e fazer uma conexão firebase.
+# 🥥 | This is an example of firebase
+This is something just for you to base yourself on and make a firebase connection.
 
-- Conectar e set: connect.js
+- Connect and set: connect.js
