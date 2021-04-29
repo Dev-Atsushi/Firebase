@@ -1,6 +1,6 @@
-const firebase = require("firebase")
+const firebase = require("firebase");
 
-var firebaseConfig = {
+let firebaseConfig = {
     apiKey: "XXX",
     authDomain: "XXX",
     databaseURL: "XXX",
@@ -10,10 +10,12 @@ var firebaseConfig = {
     appId: "XXX",
     measurementId: "XXX"
 };
+
 firebase.initializeApp(firebaseConfig);
 const data = firebase.database();
 
-let bref = data.ref(`Usuarios/Email`);
+let bref = data.ref(`Users/Email`);
+
 bref.update({
-  email: "mychannelall12@gmail.com"
+  email: "atsushithesushi@gmail.com"
 });
